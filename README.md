@@ -26,7 +26,20 @@ Surprise Housing data set (train.csv)
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
-- We have build model,check all the assumption is being satisfied  and the market value of the property is lower than the Predicted Sale Price, its the time to buy.
+The Mean Squared error in case of Ridge and Lasso are:
+- Ridge 
+         0.011920- (train)
+         0.021241- (test)   
+- Lasso 
+        0.012174- (train)
+        0.020377- (test) 
+
+The Mean Squared Error of ridge is slightly lower than that of lasso
+>Also, since Lasso helps in feature reduction (as the coefficient value of one of the feature became 0), Lasso has a better edge over Ridge.
+
+>Hence based on Lasso, the factors that generally affect the price are the Zoning classification, Living area square feet, Overall quality , condition of the house, Foundation type of the house, Total basement area in square feet,neighbourhood etc
+
+Therefore, the variables predicted by Lasso in the py-notebooke bar chart as >significant variables for predicting the price of a house.
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
@@ -43,7 +56,7 @@ Surprise Housing data set (train.csv)
 
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
+Created by [@koolrugved13] 
 
 
 <!-- Optional -->
